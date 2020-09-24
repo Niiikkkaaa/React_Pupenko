@@ -119,7 +119,7 @@ class Week1 extends Component {
             key={i}
             onRemoveProduct={this.removeProduct}
             onUpdateProduct={this.updateProduct}
-            />
+          />
           )
           }
             </Table.Body>
