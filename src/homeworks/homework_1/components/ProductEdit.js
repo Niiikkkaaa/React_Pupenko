@@ -7,7 +7,7 @@ class ProductEdit extends Component {
    constructor(props) {
      super(props);
      this.state = {
-       editedProduct: props.editedProductItem
+       editedProduct: {...props.editedProductItem}
      }
    }
 

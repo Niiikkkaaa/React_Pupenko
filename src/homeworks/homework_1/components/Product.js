@@ -9,7 +9,6 @@ class Product extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      editedProduct: props.product,
       isEdit: false
     }
   }
@@ -21,32 +20,29 @@ class Product extends Component {
  }
 
  updateProduct = (editedProd, position) => {
-  const {editedProduct} = this.state;
+  //const {editedProduct} = this.state;
   this.setState({
-    isEdit: false,
-    editedProduct: {...editedProd}
+    isEdit: false
   })
-  this.props.onUpdateProduct(editedProduct, position);
+  this.props.onUpdateProduct(editedProd, position);
 }
 
   onCancel = () => {
     this.setState({
-      isEdit: false,
-      editedProduct: this.props.product
+      isEdit: false
   })
   }
 
   render() {
-    const { isEdit, editedProduct} = this.state;
+    const { isEdit } = this.state;
     const { product, position, onRemoveProduct } = this.props;
     if (isEdit) return (
     <ProductEdit 
     position = {position}
-    editedProductItem = {editedProduct}
+    editedProductItem = {product}
     updateEditedProduct = {this.updateProduct}
     onCancelEdit = {this.onCancel}
     />
-
     ) 
        return (
         <Table.Row>
