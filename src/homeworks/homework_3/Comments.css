@@ -1,0 +1,16 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px; 
+ }
+
+.comment-name {
+  font-weight: 800;
+}
+
+.comment-email {
+  color: #7c7c7e ;
+}

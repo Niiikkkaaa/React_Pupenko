@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+  }
+  
+.composition-example, .blog {
+    padding: 24px !important;
+  }
+  
+.author-column .ui.card{
+    position: fixed !important;
+    top: 24px !important;
+  }
+  
+.full-with-img{
+    width: 100%;
+  }
+  
+.page {
+    padding-top: 24px;
+  }
+
+ul li{
+      list-style-type: none;
+  }
+
+
+
+  
