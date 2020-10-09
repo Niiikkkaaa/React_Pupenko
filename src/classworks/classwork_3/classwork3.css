@@ -1,0 +1,9 @@
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.input-field input{
+  border: none;
+  border-bottom: 2px solid black;
+}

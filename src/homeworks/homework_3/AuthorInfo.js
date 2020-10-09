@@ -36,8 +36,7 @@ class AuthorInfo extends Component {
       }))
       .catch(err => this.setState({
         isFetching: false
-      }))
-      
+      })) 
   }
 
   render() {
