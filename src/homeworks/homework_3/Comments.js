@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { Loader } from 'semantic-ui-react'; 
 import './Comments.css';
  
-class Blog extends Component {
+class Comments extends Component {
 
   constructor(props) {
     super(props)
@@ -50,4 +50,4 @@ class Blog extends Component {
   }
 }
 
-export default Blog;
+export default Comments;
