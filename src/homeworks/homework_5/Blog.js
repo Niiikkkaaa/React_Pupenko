@@ -11,7 +11,7 @@ import Posts from "./containers/Posts";
 import Page404 from "./containers/404";
 import UserDetails from "./containers/UserDetails";
 import { AnimatePresence, motion } from 'framer-motion';
-import './Blog.css';
+
 
 export default function Blog({ location }) {
 
